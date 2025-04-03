@@ -9,15 +9,67 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Regression Suite</th></tr>
-<tr><td><a href="#t0">Regression Test Cases</a></td><td class="num">9</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">22,640</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Regression Test Cases</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">24,126</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Regression Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Regression Test Cases &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">testcases.CartPageTest</td><td><a href="#m0">cartPageHeaderText</a></td><td rowspan="1">1739620789926</td><td rowspan="1">116</td></tr><tr class="passedeven"><td><a href="#m1">verifyCartPageProductTest</a></td><td rowspan="1">1739620792369</td><td rowspan="1">45</td></tr><tr class="passedeven"><td><a href="#m2">verifyCheckoutPageTest</a></td><td rowspan="1">1739620794834</td><td rowspan="1">217</td></tr><tr class="passedodd"><td rowspan="2">testcases.CheckoutPageTest</td><td><a href="#m3">placeOrderTest</a></td><td rowspan="1">1739620799783</td><td rowspan="1">1556</td></tr><tr class="passedodd"><td><a href="#m4">verifyCheckoutPageTitleTest</a></td><td rowspan="1">1739620797158</td><td rowspan="1">382</td></tr><tr class="passedeven"><td rowspan="2">testcases.HomePageTest</td><td><a href="#m5">addToCartProductTest</a></td><td rowspan="1">1739620787512</td><td rowspan="1">126</td></tr><tr class="passedeven"><td><a href="#m6">dropdownSelectTest</a></td><td rowspan="1">1739620785310</td><td rowspan="1">210</td></tr><tr class="passedodd"><td rowspan="2">testcases.LoginPageTest</td><td><a href="#m7">loginPagetitleTest</a></td><td rowspan="1">1739620781381</td><td rowspan="1">29</td></tr><tr class="passedodd"><td><a href="#m8">loginTest</a></td><td rowspan="1">1739620782875</td><td rowspan="1">381</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Regression Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Regression Test Cases &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">testcases.CheckoutPageTest</td><td><a href="#m0">placeOrderTest</a></td><td rowspan="1">1743653636544</td><td rowspan="1">189</td></tr><tr class="failedeven"><td><a href="#m1">verifyCheckoutPageTitleTest</a></td><td rowspan="1">1743653633541</td><td rowspan="1">333</td></tr><tr><th colspan="4">Regression Test Cases &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">testcases.CartPageTest</td><td><a href="#m2">cartPageHeaderText</a></td><td rowspan="1">1743653625844</td><td rowspan="1">169</td></tr><tr class="passedeven"><td><a href="#m3">verifyCartPageProductTest</a></td><td rowspan="1">1743653628242</td><td rowspan="1">45</td></tr><tr class="passedeven"><td><a href="#m4">verifyCheckoutPageTest</a></td><td rowspan="1">1743653630341</td><td rowspan="1">209</td></tr><tr class="passedodd"><td rowspan="2">testcases.HomePageTest</td><td><a href="#m5">addToCartProductTest</a></td><td rowspan="1">1743653623726</td><td rowspan="1">124</td></tr><tr class="passedodd"><td><a href="#m6">dropdownSelectTest</a></td><td rowspan="1">1743653621687</td><td rowspan="1">188</td></tr><tr class="passedeven"><td rowspan="2">testcases.LoginPageTest</td><td><a href="#m7">loginPagetitleTest</a></td><td rowspan="1">1743653617757</td><td rowspan="1">22</td></tr><tr class="passedeven"><td><a href="#m8">loginTest</a></td><td rowspan="1">1743653619406</td><td rowspan="1">325</td></tr></tbody>
 </table>
-<h2>Regression Test Cases</h2><h3 id="m0">testcases.CartPageTest#cartPageHeaderText</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">testcases.CartPageTest#verifyCartPageProductTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">testcases.CartPageTest#verifyCheckoutPageTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">testcases.CheckoutPageTest#placeOrderTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">testcases.CheckoutPageTest#verifyCheckoutPageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Regression Test Cases</h2><h3 id="m0">testcases.CheckoutPageTest#placeOrderTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()=&apos;Your Cart&apos;]&quot;}
+  (Session info: chrome=135.0.7049.42)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.28.1&apos;, revision: &apos;73f5ad48a2&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5b09d80ed0190a1c4d8d650fb9ac8d93, findElement {using=xpath, value=//span[text()=&apos;Your Cart&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.42, chrome: {chromedriverVersion: 135.0.7049.42 (0f351bbd2617..., userDataDir: C:\Users\mayur\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51094}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51094/devtoo..., se:cdpVersion: 135.0.7049.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5b09d80ed0190a1c4d8d650fb9ac8d93
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy11.getText(Unknown Source)
+	at com.qa.pages.CartPage.navigateToCartPage(CartPage.java:52)
+	at testcases.CheckoutPageTest.placeOrderTest(CheckoutPageTest.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testcases.CheckoutPageTest#verifyCheckoutPageTitleTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()=&apos;Checkout: Your Information&apos;]&quot;}
+  (Session info: chrome=135.0.7049.42)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.28.1&apos;, revision: &apos;73f5ad48a2&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f35ec80f71dd42e570bd6d5ac55edc77, findElement {using=xpath, value=//span[text()=&apos;Checkout: Your Information&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.42, chrome: {chromedriverVersion: 135.0.7049.42 (0f351bbd2617..., userDataDir: C:\Users\mayur\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51070}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51070/devtoo..., se:cdpVersion: 135.0.7049.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f35ec80f71dd42e570bd6d5ac55edc77
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy11.getText(Unknown Source)
+	at com.qa.pages.CheckoutPage.getCheckoutheaderText(CheckoutPage.java:64)
+	at testcases.CheckoutPageTest.verifyCheckoutPageTitleTest(CheckoutPageTest.java:47)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testcases.CartPageTest#cartPageHeaderText</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testcases.CartPageTest#verifyCartPageProductTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testcases.CartPageTest#verifyCheckoutPageTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m5">testcases.HomePageTest#addToCartProductTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m6">testcases.HomePageTest#dropdownSelectTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m7">testcases.LoginPageTest#loginPagetitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
