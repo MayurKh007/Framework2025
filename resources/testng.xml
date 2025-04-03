@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Regression Suite">
+
+<listeners>
+        <!-- Add the listener for ExtentReports -->
+        <listener class-name="com.qa.extentReport.ExtentTestNGListener" />
+    </listeners>
+
+    <test name="Regression Test Cases">
+        <!-- You can include all the classes or packages you want to run -->
+        <classes>
+            <class name="testcases.LoginPageTest" />
+            <class name="testcases.HomePageTest" />
+            <class name="testcases.CartPageTest" />
+            <class name="testcases.CheckoutPageTest" />
+    
+            <!-- Add more classes as needed -->
+        </classes>
+    </test>
+</suite>
